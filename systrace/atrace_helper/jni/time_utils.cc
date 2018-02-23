@@ -4,6 +4,7 @@
 
 #include "time_utils.h"
 
+#include <unistd.h>
 #include <sys/time.h>
 #include <sys/timerfd.h>
 #include <time.h>
